@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{2ee19535-a953-4eef-ad75-d9e30b26b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{71976e2a-20c6-4f27-b50f-5b7ec7fbdd1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{07ed6059-248b-4fb2-8666-6b17c3978591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{12a1bdad-ebcf-45e6-b39a-e738f4dfc0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{caf0e1cc-ae3a-47e7-865a-91a0755607a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{c962e91d-abcd-4709-8f30-f32302d8f874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{d7d3bb39-5a49-4aa5-bb12-7e2c752bf39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{276684f5-2360-447b-b759-86c487f54855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{7638a757-93e6-4e15-a9f4-6dfaee8a20dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{069079e2-3f8c-4815-aa2f-ca7ea766fa86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{30db4124-efb2-40b2-99a0-0ef52e46c48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\camera">
+      <UniqueIdentifier>{fb03c6bd-468c-452d-b2fe-43ed64f6d9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character">
+      <UniqueIdentifier>{297715ab-b223-4c33-bcce-bb6bae1b72ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Map">
+      <UniqueIdentifier>{612c37f7-443a-4ca5-95af-168d0af26113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Mob">
+      <UniqueIdentifier>{9365702e-3192-4200-a3d1-fa154c072660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\damage">
+      <UniqueIdentifier>{f1fd2290-ff6b-445d-b01a-562bd56abb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\HPbar">
+      <UniqueIdentifier>{f4a304e2-fa80-4ff8-bc96-3a4721856ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Mob\MobEffect">
+      <UniqueIdentifier>{bca2f591-4b80-4308-9df4-e6a2c5184d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Mob\Junior_fireball">
+      <UniqueIdentifier>{8dc9ad45-007f-4f5f-92c9-2ea5bc81a16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\ItemManager">
+      <UniqueIdentifier>{cfcfe93c-5824-47f3-b20f-9e3754567655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\ItemManager\Item">
+      <UniqueIdentifier>{9aaeee8d-eff2-401d-ada4-47a31d8e7020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\ItemManager\Inventory">
+      <UniqueIdentifier>{85b2f8d5-33ee-4384-83c9-22b569214368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격">
+      <UniqueIdentifier>{8713deed-685b-4eb9-bee7-67b6f21e6741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\마법사공격">
+      <UniqueIdentifier>{e3810a69-3307-4081-a56f-8bf0e8c7649a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\궁수공격">
+      <UniqueIdentifier>{37750ca1-0a2e-42d9-91ad-bae1f3df1e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\도적공격">
+      <UniqueIdentifier>{c0f90832-9fad-4ec6-8e87-91771cb4738e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\전사공격">
+      <UniqueIdentifier>{08589c13-01b3-4eb9-941d-239f49c38570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\초보자공격">
+      <UniqueIdentifier>{f0155b4a-a9ee-4b85-86ff-4b3f067f20c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\캐릭터이펙트">
+      <UniqueIdentifier>{c589a88a-60e7-4392-8912-60de84ead66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character\공격\투사체">
+      <UniqueIdentifier>{7f8e0836-5cae-457d-883a-1d6bdb7a2e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\login">
+      <UniqueIdentifier>{5f997864-62a1-47b1-9063-994856db02f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="windowAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>2DGameFramework\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>playGround\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>playGround\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="HornyMushroom.h">
+      <Filter>playGround\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieMushroom.h">
+      <Filter>playGround\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>playGround\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="MobManager.h">
+      <Filter>playGround\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="Junior.h">
+      <Filter>playGround\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="damage.h">
+      <Filter>playGround\damage</Filter>
+    </ClInclude>
+    <ClInclude Include="Hpbar.h">
+      <Filter>playGround\HPbar</Filter>
+    </ClInclude>
+    <ClInclude Include="MobEffect.h">
+      <Filter>playGround\Mob\MobEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Junior_fireball.h">
+      <Filter>playGround\Mob\Junior_fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>playGround\ItemManager\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>playGround\ItemManager\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>playGround\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="chobo.h">
+      <Filter>playGround\Character\공격\초보자공격</Filter>
+    </ClInclude>
+    <ClInclude Include="warrior.h">
+      <Filter>playGround\Character\공격\전사공격</Filter>
+    </ClInclude>
+    <ClInclude Include="archer.h">
+      <Filter>playGround\Character\공격\궁수공격</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
+      <Filter>playGround\Character\공격\마법사공격</Filter>
+    </ClInclude>
+    <ClInclude Include="thief.h">
+      <Filter>playGround\Character\공격\도적공격</Filter>
+    </ClInclude>
+    <ClInclude Include="charEffect.h">
+      <Filter>playGround\Character\캐릭터이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>playGround\Character\공격\투사체</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>playGround\login</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>2DGameFramework\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>playGround\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>playGround\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="HornyMushroom.cpp">
+      <Filter>playGround\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieMushroom.cpp">
+      <Filter>playGround\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>playGround\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="MobManager.cpp">
+      <Filter>playGround\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="Junior.cpp">
+      <Filter>playGround\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="damage.cpp">
+      <Filter>playGround\damage</Filter>
+    </ClCompile>
+    <ClCompile Include="Hpbar.cpp">
+      <Filter>playGround\HPbar</Filter>
+    </ClCompile>
+    <ClCompile Include="MobEffect.cpp">
+      <Filter>playGround\Mob\MobEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Junior_fireball.cpp">
+      <Filter>playGround\Mob\Junior_fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>playGround\ItemManager\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>playGround\ItemManager\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>playGround\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="chobo.cpp">
+      <Filter>playGround\Character\공격\초보자공격</Filter>
+    </ClCompile>
+    <ClCompile Include="warrior.cpp">
+      <Filter>playGround\Character\공격\전사공격</Filter>
+    </ClCompile>
+    <ClCompile Include="archer.cpp">
+      <Filter>playGround\Character\공격\궁수공격</Filter>
+    </ClCompile>
+    <ClCompile Include="magic.cpp">
+      <Filter>playGround\Character\공격\마법사공격</Filter>
+    </ClCompile>
+    <ClCompile Include="thief.cpp">
+      <Filter>playGround\Character\공격\도적공격</Filter>
+    </ClCompile>
+    <ClCompile Include="charEffect.cpp">
+      <Filter>playGround\Character\캐릭터이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>playGround\Character\공격\투사체</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>playGround\login</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
